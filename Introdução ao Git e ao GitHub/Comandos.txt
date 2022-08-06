@@ -1,0 +1,39 @@
+Git Init: cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
+
+
+
+Git Clone: Esse comando Git cria uma cópia exata de um repositório já existente.
+
+
+
+Git add: adiciona seus arquivos modificados à fila para serem submetidos a um commit posteriormente. Os arquivos não passaram por um commit. O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log.
+
+
+
+Git Commit:
+É fundamental se estabelecer uma diferença entre git add e git commit:
+
+git add adiciona seus arquivos modificados à fila para serem submetidos a um commit posteriormente. Os arquivos não passaram por um commit.
+
+
+O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log. Por outro lado, se você não adicionar nenhum arquivo, o git não fará o commit de nada.
+É possível combinar as duas ações em um único comando: $ git commit -a.
+
+Também é possível adicionar uma mensagem para a execução de um commit. Exemplo:
+
+$ git commit -m “seu comentário”
+
+
+Git push:
+Esse comando serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote.
+
+Exemplo:
+
+$ git push -u <nome_curto> <nome_do_branch>
+
+É importante especificar a origem e o upstream antes de usar o git push. Veja o exemplo:
+
+$ git push –set-upstream <nome_curto> <nome_do_branch>
+
+
+Link para outros comandos: https://www.codigofonte.com.br/artigos/top-25-comandos-do-git
