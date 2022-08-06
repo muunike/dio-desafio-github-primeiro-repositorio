@@ -1,0 +1,13 @@
+Explicações conforme entendi: 
+
+1º Você cria o arquivo na pasta local da minha máquina
+
+2º Você da um "git status" para o próprio gi entender que subiu uma pasta nova
+
+3º Você da um "git add . " para ele incluir essa pasta no seu repositório
+
+4º Ainda não subiu essa pasta no seu GitHub, então primeiro você fará o commit dela "git commit -m "##inserir aqui o que vc incluiu" 
+
+5º e último, agora sim você irá subir para o GitHub dando o comando git push origin main
+
+Fim
